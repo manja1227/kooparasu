@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.kooparasu .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  min-width: 300px;
+}
+
+.kooparasu .container header {
+  font-family: Hubballi;
+  font-size: 34px;
+  font-weight: 800;
+  padding-bottom: 20px;
+}
+
+.kooparasu .container .search-component .search-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.kooparasu .container .search-component .search-input input {
+  min-width: 220px;
+  color: #6e6d6d;
+  background: #f7f4f4;
+  border: 0;
+  border-start-start-radius: 15px;
+  border-end-start-radius: 15px;
+  padding-left: 15px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: none;
+}
+
+.kooparasu .container .search-component .search-input #search-button {
+  background: #f7f4f4;
+  border: 0;
+  border-start-end-radius: 15px;
+  border-end-end-radius: 15px;
+  cursor: pointer;
+}
+
+.kooparasu .container .search-component .search-input #search-button:focus {
+  outline: 1px solid #f1f1f1;
+}
+
+.kooparasu .container .search-component .search-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  font-size: 12px;
+}
+
+.kooparasu .container .search-component .search-type .form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
+  background: #f7f4f4;
+  border-radius: 20px;
+  padding: 2px 6px;
+  cursor: pointer;
+}
+
+.kooparasu .container .search-component .search-type .form-group input,
+.kooparasu .container .search-component .search-type .form-group label {
+  cursor: pointer;
+}
+
+.kooparasu .container .search-component input[type="radio" i] {
+  margin: 0;
+}
+
+.kooparasu .container .search-component .material-icons.md-18 {
+  font-size: normal;
+  padding: 1px;
+  margin-top: 3px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kooparasu | ಕೂಪರಸು</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="kooparasu">
+      <div class="container">
+        <header>ಕೂಪರಸು</header>
+        <main>
+          <section class="search-component">
+            <div class="search-input">
+              <input type="text" name="search" id="search" title="Search the deep web" placeholder="Search the deep web" />
+              <button id="search-button" type="button" title="Search">
+                <i class="material-icons md-18">search</i>
+              </button>
+            </div>
+            <div class="search-type">
+              <div class="form-group">
+                <input type="radio" id="video" name="search-type" value="Videos" checked/>
+                <label for="video">Videos</label><br />
+              </div>
+              <div class="form-group">
+                <input type="radio" id="audio" name="search-type" value="Audio" />
+                <label for="audio">Audio</label><br />
+              </div>
+              <div class="form-group">
+                <input type="radio" id="book" name="search-type" value="Books" />
+                <label for="book">Books</label>
+              </div>
+            </div>
+          </section>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>

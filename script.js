@@ -25,7 +25,7 @@ const doSearch = (searchTerm, searchType) => {
     case 'Books':
       keywords = `-inurl:htm -inurl:html intitle:"index of" +("/ebooks"|"/book") +(chm|pdf|zip) + "${searchTerm}"`;
       console.log(`It's book ${searchEngine + searchTerm + keywords}`);
-      window.open(searchEngine + searchTerm + keywords, '_blank');
+      window.open(searchEngine + keywords, '_blank');
       break;
     case 'Audio':
       keywords = ' +(mp3|wav|aac|) -inurl:(jsp|pl|php|html|aspx|htm|cf|shtml)';
